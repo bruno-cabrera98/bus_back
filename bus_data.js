@@ -1,7 +1,6 @@
 const url = require("url");
 const axios = require("axios");
 
-
 global.bus_data = []
 
 const accessTokenUrl = 'https://mvdapi-auth.montevideo.gub.uy/auth/realms/pci/protocol/openid-connect/token'
